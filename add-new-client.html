@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>pTibia</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <form action="" class="common-form m-0">
+          <div class="full-wrap add-new-client">
+            <div class="content">
+              <header class="common-header">
+                <div class="all-client-back">
+                  <a href="all-client.html">
+                    <i class="fa-solid fa-xmark"></i>
+                  </a>
+                  <h3>Add New Client</h3>
+                </div>
+              </header>
+              <div class="photo-upload-area">
+                <div class="photo-show">
+                  <img src="assets/images/placeholder-img.png" alt="">
+                  <div type="button" data-bs-toggle="offcanvas" data-bs-target="#photoSelect" aria-controls="photoSelect" class="photo-select"><i class="fa-solid fa-camera"></i></div>
+                </div>
+              </div>
+              <div class="offcanvas offcanvas-bottom" data-bs-scroll="true" tabindex="-1" id="photoSelect" aria-labelledby="photoSelectLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="photoSelectLabel">Profile Picture</h5>
+                  <button type="button" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-solid fa-trash-can"></i></button>
+                </div>
+                <div class="offcanvas-body small">
+                  <div class="photo-select-option">
+                    <div>
+                      <span><i class="fa-solid fa-camera"></i></span>
+                      <h6>Camera</h6>
+                    </div>
+                    <div>
+                      <label class="select-img-label">
+                        <input type="file" hidden>
+                        <span><i class="fa-regular fa-image"></i></span>
+                        <h6>Gallery</h6>
+                    </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="common-input">
+                <label for="fullName">Full Name</label>
+                <input type="text" id="fullName" class="form-control" placeholder="Enter your Full Name">
+                <span><i class="fa-regular fa-circle-user"></i></span>
+              </div>
+              <div class="common-input">
+                <label for="phoneNumber">Phone</label>
+                <input type="number" id="phoneNumber" class="form-control" placeholder="Enter your Phone No.">
+                <span><i class="fa-solid fa-phone"></i></span>
+              </div>
+              <div class="two-input">
+                <div class="common-input w-100">
+                  <label for="dob">Date Of Birth</label>
+                  <input type="date" id="dob" class="form-control" placeholder="Select Date of Birth">
+                  <span><i class="fa-regular fa-calendar"></i></span>
+                </div>
+                <div class="common-input w-100">
+                  <label for="gender">Gender</label>
+                  <select name="" id="gender" class="form-control">
+                    <option> Select Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                  </select>
+                  <span><i class="fa-solid fa-children"></i></span>
+                </div>
+                
+              </div>
+              <div class="common-input">
+                <label for="logEmail">Email</label>
+                <input type="email" id="logEmail" class="form-control" placeholder="Enter Your Email">
+                <span><i class="fa-regular fa-envelope"></i></span>
+              </div>
+            </div>
+            <button disabled type="submit" class="common-submit"><i class="fa-solid fa-check"></i> Create Client</button>
+          </div>
+        </form>
+      </div>
+    </main>
+    <script src="assets/js/bootstrap.min.js"></script>
+  </body>
+</html>
