@@ -1,10 +1,10 @@
 ##Here is the all pages link
 
-https://omarfaruk-pro.github.io/gyp-pwa-/account.html
-https://omarfaruk-pro.github.io/gyp-pwa-/add-new-client.html
-https://omarfaruk-pro.github.io/gyp-pwa-/all-client-2.html
-https://omarfaruk-pro.github.io/gyp-pwa-/all-client.html
-https://omarfaruk-pro.github.io/gyp-pwa-/calender-edit.html
+https://omarfaruk-pro.github.io/gyp-pwa-/account.html  
+https://omarfaruk-pro.github.io/gyp-pwa-/add-new-client.html  
+https://omarfaruk-pro.github.io/gyp-pwa-/all-client-2.html  
+https://omarfaruk-pro.github.io/gyp-pwa-/all-client.html  
+https://omarfaruk-pro.github.io/gyp-pwa-/calender-edit.html  
 https://omarfaruk-pro.github.io/gyp-pwa-/calender.html
 https://omarfaruk-pro.github.io/gyp-pwa-/cardio-32.html
 https://omarfaruk-pro.github.io/gyp-pwa-/cardio-33.html
